@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724C70AC22A6D96100EB83CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C70AB22A6D96100EB83CF /* CircleImage.swift */; };
 		72A5720222A6C4D50099EBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5720122A6C4D50099EBC0 /* AppDelegate.swift */; };
 		72A5720422A6C4D50099EBC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5720322A6C4D50099EBC0 /* SceneDelegate.swift */; };
 		72A5720622A6C4D50099EBC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5720522A6C4D50099EBC0 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		724C70AB22A6D96100EB83CF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		72A571FE22A6C4D50099EBC0 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A5720122A6C4D50099EBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A5720322A6C4D50099EBC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				72A5720322A6C4D50099EBC0 /* SceneDelegate.swift */,
 				72A5720522A6C4D50099EBC0 /* ContentView.swift */,
 				72A5720722A6C4D60099EBC0 /* Assets.xcassets */,
+				724C70AB22A6D96100EB83CF /* CircleImage.swift */,
 				72A5720C22A6C4D60099EBC0 /* LaunchScreen.storyboard */,
 				72A5720F22A6C4D60099EBC0 /* Info.plist */,
 				72A5720922A6C4D60099EBC0 /* Preview Content */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A5720222A6C4D50099EBC0 /* AppDelegate.swift in Sources */,
+				724C70AC22A6D96100EB83CF /* CircleImage.swift in Sources */,
 				72A5720422A6C4D50099EBC0 /* SceneDelegate.swift in Sources */,
 				72A5720622A6C4D50099EBC0 /* ContentView.swift in Sources */,
 			);
