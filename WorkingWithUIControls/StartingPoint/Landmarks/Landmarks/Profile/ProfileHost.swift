@@ -23,7 +23,7 @@ struct ProfileHost : View {
             if self.mode?.value == .inactive {
                 ProfileSummary(profile: self.profile)
             } else {
-                Text("Profile Editor")
+                ProfileEditor(profile: $draftProfile)
             }
         }
         .padding()
