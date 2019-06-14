@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7288895422B33C7500A6C143 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288895322B33C7500A6C143 /* PageViewController.swift */; };
 		7288895622B33DBC00A6C143 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288895522B33DBC00A6C143 /* PageView.swift */; };
+		7288895822B3437300A6C143 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288895722B3437300A6C143 /* PageControl.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -64,6 +65,7 @@
 		187E8B20187E899000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		7288895322B33C7500A6C143 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		7288895522B33DBC00A6C143 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		7288895722B3437300A6C143 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +214,7 @@
 				B7D587B7229F826D006E8DCF /* GraphCapsule.swift */,
 				7288895322B33C7500A6C143 /* PageViewController.swift */,
 				7288895522B33DBC00A6C143 /* PageView.swift */,
+				7288895722B3437300A6C143 /* PageControl.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				B739489F229F2D9700C47603 /* LandmarkRow.swift in Sources */,
 				7288895622B33DBC00A6C143 /* PageView.swift in Sources */,
 				B7D587DB22A08D67006E8DCF /* ProfileSummary.swift in Sources */,
+				7288895822B3437300A6C143 /* PageControl.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
 				B7394881229F28B900C47603 /* Landmark.swift in Sources */,
 				B7D587DF22A08E1A006E8DCF /* ProfileEditor.swift in Sources */,
