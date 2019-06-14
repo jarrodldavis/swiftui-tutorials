@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7288895422B33C7500A6C143 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288895322B33C7500A6C143 /* PageViewController.swift */; };
+		7288895622B33DBC00A6C143 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7288895522B33DBC00A6C143 /* PageView.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -58,8 +60,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		184943801849325000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		187E8B20187E899000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		184943801849325000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		187E8B20187E899000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		7288895322B33C7500A6C143 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7288895522B33DBC00A6C143 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +210,8 @@
 				B7D587AD229F7382006E8DCF /* BadgeBackground.swift */,
 				B7D587BD229F82FF006E8DCF /* HikeGraph.swift */,
 				B7D587B7229F826D006E8DCF /* GraphCapsule.swift */,
+				7288895322B33C7500A6C143 /* PageViewController.swift */,
+				7288895522B33DBC00A6C143 /* PageView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -266,7 +272,6 @@
 				B739485E229F194000C47603 /* Sources */,
 				B739485F229F194000C47603 /* Frameworks */,
 				B7394860229F194000C47603 /* Resources */,
-				C602AC70C605937000000001,
 			);
 			buildRules = (
 			);
@@ -367,8 +372,10 @@
 				B7D587BE229F82FF006E8DCF /* HikeGraph.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B7D587AE229F7382006E8DCF /* BadgeBackground.swift in Sources */,
+				7288895422B33C7500A6C143 /* PageViewController.swift in Sources */,
 				B739486A229F194000C47603 /* LandmarkDetail.swift in Sources */,
 				B739489F229F2D9700C47603 /* LandmarkRow.swift in Sources */,
+				7288895622B33DBC00A6C143 /* PageView.swift in Sources */,
 				B7D587DB22A08D67006E8DCF /* ProfileSummary.swift in Sources */,
 				B7D2AAC5229F4D7C0061E5F5 /* UserData.swift in Sources */,
 				B7394881229F28B900C47603 /* Landmark.swift in Sources */,
